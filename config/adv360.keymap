@@ -22,7 +22,20 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        cmd+opt+ctl {
+            bindings = <&kp F19>;
+            key-positions = <46 36 37>;
+            layers = <0>;
+        };
+
+        cmd+shit {
+            bindings = <&kp F18>;
+            key-positions = <38 46>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
