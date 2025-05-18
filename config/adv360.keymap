@@ -22,19 +22,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        shift+cmd+opt {
-            bindings = <&kp F19>;
-            key-positions = <37 36 46>;
-        };
-
-        cmd-cot-opt {
-            bindings = <&kp F18>;
-            key-positions = <35 36 37>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
