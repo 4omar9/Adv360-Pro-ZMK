@@ -21,6 +21,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        shift+cmd+opt {
+            bindings = <&kp LS(KP_NUMBER_3)>;
+            key-positions = <37 36 46>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
