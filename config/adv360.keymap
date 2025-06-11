@@ -30,10 +30,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp LEFT_SHIFT  &kp N1              &kp N2          &kp N3          &kp N4            &kp N5  &tog 1                                                                                &mo 3                  &kp N6  &kp N7             &kp N8               &kp N9            &kp N0                      &kp MINUS
+&kp LEFT_SHIFT  &kp N1              &kp N2          &kp N3          &kp N4            &kp N5  &tog 1                                                                                &mo 3                  &kp N6  &kp N7             &kp N8               &kp N9            &kp N0                      &kp RSHIFT
 &kp TAB         &kp Q               &kp W           &kp E           &kp R             &kp T   &kp LS(LA(LC(LEFT)))                                                                  &kp LS(LA(LC(RIGHT)))  &kp Y   &kp U              &kp I                &kp O             &kp P                       &kp BACKSLASH
 &kp ESCAPE      &hm LEFT_CONTROL A  &hm LEFT_ALT S  &hm LEFT_GUI D  &hm LEFT_SHIFT F  &kp G   &kp LA(LC(C))         &kp TAB     &kp LEFT_CONTROL      &kp RIGHT_ALT  &kp RIGHT_GUI  &lt 1 RG(TAB)          &kp H   &hm RIGHT_SHIFT J  &hm RIGHT_COMMAND K  &hm RIGHT_ALT L   &hm LEFT_CONTROL SEMICOLON  &kp SINGLE_QUOTE
-&kp EQUAL       &kp Z               &kp X           &kp C           &kp V             &kp B                                     &kp LEFT_ALT          &kp PG_UP                                            &kp N   &kp M              &kp COMMA            &kp DOT           &kp SLASH                   &kp RSHFT
+&kp EQUAL       &kp Z               &kp X           &kp C           &kp V             &kp B                                     &kp LEFT_ALT          &kp PG_UP                                            &kp N   &kp M              &kp COMMA            &kp DOT           &kp SLASH                   &kp MINUS
 &mo 2           &kp GRAVE           &kp CAPS        &kp LEFT        &kp RIGHT                 &kp BSPC              &kp ESCAPE  &kp ENTER             &kp PG_DN      &kp ENTER      &kp SPACE                      &kp UP_ARROW       &kp DOWN_ARROW       &kp LEFT_BRACKET  &kp RBKT                    &mo 2
             >;
         };
